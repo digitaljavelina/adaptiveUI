@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AdaptiveUIDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tshirt" translatesAutoresizingMaskIntoConstraints="NO" id="WqN-R5-9Ph"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a72-Ya-Vn8">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="PSD T-Shirt Mockup Template" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VdS-aj-xdd">
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="32"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact">
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="25"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amy-Tw-mU5">
+                                        <string key="text">This is a free psd T-shirt mockup provided by pixeden.com. The PSD comes with a plain simple tee-shirt mockup template. You can edit the t-shirt color and use the smart layer to apply your designs. The high-resolution makes it easy to frame specific details with close-ups.</string>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact">
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
+                                        </variation>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="13"/>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="amy-Tw-mU5" firstAttribute="leading" secondItem="a72-Ya-Vn8" secondAttribute="leading" constant="22" id="8YR-1S-sTp"/>
+                                    <constraint firstItem="VdS-aj-xdd" firstAttribute="top" secondItem="a72-Ya-Vn8" secondAttribute="top" constant="15" id="9GR-aE-jgw"/>
+                                    <constraint firstAttribute="trailing" secondItem="VdS-aj-xdd" secondAttribute="trailing" constant="22" id="DgD-mj-yRn"/>
+                                    <constraint firstItem="VdS-aj-xdd" firstAttribute="top" secondItem="a72-Ya-Vn8" secondAttribute="top" constant="15" id="Dvj-qx-oXA">
+                                        <variation key="heightClass=compact-widthClass=regular" constant="230"/>
+                                    </constraint>
+                                    <constraint firstItem="VdS-aj-xdd" firstAttribute="leading" secondItem="a72-Ya-Vn8" secondAttribute="leading" constant="22" id="IaJ-V7-qvD"/>
+                                    <constraint firstItem="VdS-aj-xdd" firstAttribute="leading" secondItem="a72-Ya-Vn8" secondAttribute="leading" constant="22" id="J2q-q6-JNL"/>
+                                    <constraint firstItem="amy-Tw-mU5" firstAttribute="leading" secondItem="a72-Ya-Vn8" secondAttribute="leading" constant="22" id="Khv-QR-VWn"/>
+                                    <constraint firstAttribute="trailing" secondItem="amy-Tw-mU5" secondAttribute="trailing" constant="22" id="Qqz-s3-HhM"/>
+                                    <constraint firstAttribute="trailing" secondItem="VdS-aj-xdd" secondAttribute="trailing" constant="22" id="YlE-iN-sfC"/>
+                                    <constraint firstItem="amy-Tw-mU5" firstAttribute="top" secondItem="VdS-aj-xdd" secondAttribute="bottom" constant="-1" id="dbB-84-Foo"/>
+                                    <constraint firstAttribute="trailing" secondItem="amy-Tw-mU5" secondAttribute="trailing" constant="22" id="owV-u8-MxX"/>
+                                    <constraint firstAttribute="bottom" secondItem="amy-Tw-mU5" secondAttribute="bottom" priority="250" constant="29" id="qAY-In-5Zy"/>
+                                    <constraint firstItem="amy-Tw-mU5" firstAttribute="top" secondItem="VdS-aj-xdd" secondAttribute="bottom" id="zyG-VA-aBT"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Dvj-qx-oXA"/>
+                                        <exclude reference="IaJ-V7-qvD"/>
+                                        <exclude reference="YlE-iN-sfC"/>
+                                        <exclude reference="Khv-QR-VWn"/>
+                                        <exclude reference="Qqz-s3-HhM"/>
+                                        <exclude reference="zyG-VA-aBT"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="9GR-aE-jgw"/>
+                                        <exclude reference="DgD-mj-yRn"/>
+                                        <include reference="Dvj-qx-oXA"/>
+                                        <include reference="IaJ-V7-qvD"/>
+                                        <exclude reference="J2q-q6-JNL"/>
+                                        <include reference="YlE-iN-sfC"/>
+                                        <exclude reference="8YR-1S-sTp"/>
+                                        <include reference="Khv-QR-VWn"/>
+                                        <include reference="Qqz-s3-HhM"/>
+                                        <exclude reference="dbB-84-Foo"/>
+                                        <exclude reference="owV-u8-MxX"/>
+                                        <exclude reference="qAY-In-5Zy"/>
+                                        <include reference="zyG-VA-aBT"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WqN-R5-9Ph" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8aY-0E-Y7Y"/>
+                            <constraint firstItem="WqN-R5-9Ph" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="EgO-rg-DBR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="a72-Ya-Vn8" secondAttribute="bottom" id="FZg-kL-GT1"/>
+                            <constraint firstItem="WqN-R5-9Ph" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="HNM-jZ-V1u"/>
+                            <constraint firstItem="WqN-R5-9Ph" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KGV-py-3xC"/>
+                            <constraint firstItem="a72-Ya-Vn8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="KQU-bY-vHe"/>
+                            <constraint firstItem="a72-Ya-Vn8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Mh7-Hg-yIB"/>
+                            <constraint firstItem="a72-Ya-Vn8" firstAttribute="top" secondItem="WqN-R5-9Ph" secondAttribute="bottom" id="QRf-Ja-ok3"/>
+                            <constraint firstAttribute="trailing" secondItem="WqN-R5-9Ph" secondAttribute="trailing" id="SZz-bu-rHE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="a72-Ya-Vn8" secondAttribute="bottom" id="UOd-np-RQg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WqN-R5-9Ph" secondAttribute="bottom" id="hVM-ek-cdb"/>
+                            <constraint firstItem="WqN-R5-9Ph" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="omt-Bu-54n"/>
+                            <constraint firstAttribute="trailing" secondItem="a72-Ya-Vn8" secondAttribute="trailing" id="rau-CJ-b1H"/>
+                            <constraint firstAttribute="trailing" secondItem="a72-Ya-Vn8" secondAttribute="trailing" id="uy4-7r-qm6"/>
+                            <constraint firstItem="WqN-R5-9Ph" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.65" id="xn9-eD-7F0"/>
+                            <constraint firstItem="a72-Ya-Vn8" firstAttribute="leading" secondItem="WqN-R5-9Ph" secondAttribute="trailing" id="yb8-IN-PCf"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8aY-0E-Y7Y"/>
+                                <exclude reference="EgO-rg-DBR"/>
+                                <exclude reference="HNM-jZ-V1u"/>
+                                <exclude reference="Mh7-Hg-yIB"/>
+                                <exclude reference="uy4-7r-qm6"/>
+                                <exclude reference="yb8-IN-PCf"/>
+                                <exclude reference="FZg-kL-GT1"/>
+                                <exclude reference="hVM-ek-cdb"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="8aY-0E-Y7Y"/>
+                                <include reference="EgO-rg-DBR"/>
+                                <include reference="HNM-jZ-V1u"/>
+                                <exclude reference="KGV-py-3xC"/>
+                                <exclude reference="SZz-bu-rHE"/>
+                                <exclude reference="omt-Bu-54n"/>
+                                <exclude reference="xn9-eD-7F0"/>
+                                <exclude reference="KQU-bY-vHe"/>
+                                <include reference="Mh7-Hg-yIB"/>
+                                <exclude reference="QRf-Ja-ok3"/>
+                                <exclude reference="rau-CJ-b1H"/>
+                                <include reference="uy4-7r-qm6"/>
+                                <include reference="yb8-IN-PCf"/>
+                                <include reference="FZg-kL-GT1"/>
+                                <exclude reference="UOd-np-RQg"/>
+                                <include reference="hVM-ek-cdb"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="325" y="387"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tshirt" width="800" height="676"/>
+    </resources>
+</document>
